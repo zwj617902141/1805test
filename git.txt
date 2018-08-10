@@ -1,0 +1,84 @@
+
+Administrator@USER-20160718VY MINGW64 /d/exercise/git-test (master)
+$ git init
+Initialized empty Git repository in D:/exercise/git-test/.git/
+
+Administrator@USER-20160718VY MINGW64 /d/exercise/git-test (master)
+$ git config --global user.name "zwj617902141"
+
+Administrator@USER-20160718VY MINGW64 /d/exercise/git-test (master)
+$ git config --global user.email "617902141@qq.com"
+
+Administrator@USER-20160718VY MINGW64 /d/exercise/git-test (master)
+$ git add "test.txt"
+
+Administrator@USER-20160718VY MINGW64 /d/exercise/git-test (master)
+$ git commit -m "第一次提交"
+[master (root-commit) 6bf8480] 第一次提交
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test.txt
+
+Administrator@USER-20160718VY MINGW64 /d/exercise/git-test (master)
+$ git add "test.txt"
+
+Administrator@USER-20160718VY MINGW64 /d/exercise/git-test (master)
+$ git commit -m "第二次提交"
+[master d2f65bb] 第二次提交
+ 1 file changed, 1 insertion(+)
+
+Administrator@USER-20160718VY MINGW64 /d/exercise/git-test (master)
+$ git add "test.txt"
+
+Administrator@USER-20160718VY MINGW64 /d/exercise/git-test (master)
+$ git commit -m "第三次提交"
+[master 522e67d] 第三次提交
+ 1 file changed, 1 insertion(+)
+
+Administrator@USER-20160718VY MINGW64 /d/exercise/git-test (master)
+$ git log
+commit 522e67df825c4311722852c6d4eff57ae78b3ae4 (HEAD -> master)
+Author: zwj617902141 <617902141@qq.com>
+Date:   Fri Aug 10 16:39:26 2018 +0800
+
+    第三次提交
+
+commit d2f65bbed760d8af1f6f187d0a0a36fb5861d468
+Author: zwj617902141 <617902141@qq.com>
+Date:   Fri Aug 10 16:38:49 2018 +0800
+
+    第二次提交
+
+commit 6bf8480a806f184e8aea0ac8d9b4c6f0a37cc808
+Author: zwj617902141 <617902141@qq.com>
+Date:   Fri Aug 10 16:37:04 2018 +0800
+
+    第一次提交
+
+Administrator@USER-20160718VY MINGW64 /d/exercise/git-test (master)
+$ git reflog
+522e67d (HEAD -> master) HEAD@{0}: commit: 第三次提交
+d2f65bb HEAD@{1}: commit: 第二次提交
+6bf8480 HEAD@{2}: commit (initial): 第一次提交
+
+Administrator@USER-20160718VY MINGW64 /d/exercise/git-test (master)
+$ git reset --hard 6bf8480
+HEAD is now at 6bf8480 第一次提交
+
+Administrator@USER-20160718VY MINGW64 /d/exercise/git-test (master)
+$ git remote add origin https://github.com/zwj617902141/1805test.git
+
+Administrator@USER-20160718VY MINGW64 /d/exercise/git-test (master)
+$ git push -u origin master
+Username for 'https://github.com': zwj617902141
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 231 bytes | 231.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/zwj617902141/1805test.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Administrator@USER-20160718VY MINGW64 /d/exercise/git-test (master)
+$ ^C
+
+Administrator@USER-20160718VY MINGW64 /d/exercise/git-test (master)
+$

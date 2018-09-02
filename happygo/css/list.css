@@ -1,0 +1,55 @@
+*{margin: 0;padding: 0;}
+ul li{list-style: none;}
+.layout{padding: 0 140px;}
+a{color: black;text-decoration: none;}
+img{display: block;}
+.header{background: #fafafa;padding:10px 140px;margin-bottom: 10px;}
+.header ul{float: right; display: flex; justify-content: space-around;width: 210px;}
+.header2{overflow: hidden;}
+.header2 img{float: left;margin-right: 70px;}
+.header2 .fox img{margin-top: 7px;margin-right: 0;}
+.header2 .fox {
+  float: left;
+  margin-top: 20px;
+  border: solid 1px black;
+  height: 40px;
+  line-height: 30px; }
+
+.header2 .fox #txt {
+  height: 40px;
+  width: 300px;
+  float: right;
+  outline: none;
+  border: none; }
+
+.header2 .fox span {
+  color: #eee;
+  height: 40px;
+  float: right;
+  width: 100px;
+  background: #d8001d;
+  line-height: 34px;
+  text-align: center; }
+  .gwc img{margin-top: 20px;margin-left: 100px;}
+  p{text-align: left;margin: 0 auto; height: 30px; width: 500px;}
+  p a{padding:0 10px;}
+  .nav{ width: 600px; display: flex;margin-left: 50px;margin-top: 20px;}
+  .nav a{padding:0 15px;border-right: 1px solid black;}
+.content ul{display:flex;flex-wrap: wrap; justify-content: space-between;}
+.content li{ width: 250px;overflow: hidden;}
+.content img{width: 250px;height: 250px;}
+.content li p{text-align: center;width: 250px;margin-bottom: 13px;}
+.content li p:nth-child(3){color: red;}
+.content{height: 750px;}
+.page{width: 500px;margin: 0 auto;text-align: center;}
+/*.pagination{margin: 0 auto;width: 600px;}*/
+.footer{padding: 30px 140px; background: #757575;height: 220px;margin-top: 30px;color: #fff;position: relative;}
+.footer_l {width:700px;height: 250px;float: left;}
+.footer_l ul{float: left;margin-right: 70px;margin-top:30px ;}
+.footer_l ul li{margin-bottom: 30px;}
+.footer_l ul li a{color: #fff;}
+.footer_l h3{display: flex;width: 600px;justify-content: space-between;}
+.footer_r dl{position: absolute; width: 160px;right: 100px;top: 20px;overflow: hidden;}
+.footer_r dl dd p{text-align: center;width: 160px;}
+.last {padding: 20px 140px}
+.last p{text-align: left;margin: 0;}

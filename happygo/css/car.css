@@ -1,0 +1,84 @@
+*{margin: 0;padding: 0;}
+ul li{list-style: none;}
+.layout{padding: 0 140px;}
+a{color: black;text-decoration: none;}
+img{display: block;}
+.header{background: #fafafa;padding:10px 140px;margin-bottom: 10px;}
+.header ul{float: right; display: flex; justify-content: space-around;width: 210px;}
+.header2{overflow: hidden;}
+.header2 img{float: left;margin-right: 70px;}
+.header2 .fox img{margin-top: 7px;margin-right: 0;}
+.header2 .fox {
+  float: left;
+  margin-top: 20px;
+  border: solid 1px black;
+  height: 40px;
+  line-height: 30px; }
+
+.header2 .fox #txt {
+  height: 40px;
+  width: 300px;
+  float: right;
+  outline: none;
+  border: none; }
+
+.header2 .fox span {
+  color: #eee;
+  height: 40px;
+  float: right;
+  width: 100px;
+  background: #d8001d;
+  line-height: 34px;
+  text-align: center; }
+  .gwc img{margin-top: 20px;margin-left: 100px;}
+  p{text-align: left;margin: 0 auto; height: 30px; width: 500px;}
+  p a{padding:0 10px;}
+  .nav{ width: 600px; display: flex;margin-left: 50px;margin-top: 20px;}
+  .nav a{padding:0 15px;border-right: 1px solid black;}
+  .mycar{padding:50px 140px;}
+  .mycar img{margin-bottom: 40px;width: 1140px;}
+  .mycar-car{width: 100%;height: 30px; background: #0099CC;line-height: 30px;}
+
+.shoppingOrder_name{padding:20px 20px;width: 1150px;margin: 0 auto;}
+  .shoppingOrder{/* width:990px;  */border:1px solid #ccc;width: 1150px;margin: 0 auto;}
+.shoppingOrder_tips{height:40px; line-height:40px; border-bottom:1px solid #ccc; padding-left:20px; background-color:#f7f7f7; font-size:14px; color:#666;}
+.shoppingOrder_item{padding:0 20px; margin-top:-1px;}
+.shoppingOrder_table td{padding:15px 0; bkorder-top:1px solid #ccc;}
+.shoppingOrder_chk{width:30px; float:left; overflow:hidden;}
+.shoppingOrder_img{width:160px; height:160px; float:left; overflow:hidden;}
+.shoppingOrder_about{width:280px; float:left; margin-left:15px; display:inline; font-size:14px; color:#666;margin-top: 52px;}
+.shoppingOrder_info{margin-top:15px; font-size:12px; color:#999;}
+
+.shoppingOrder_sum{font-weight:bold; font-size:14px; color:#ff3300;}
+.operation{line-height:22px;background: red;text-align: center;}
+.shoppingOrder_amount span{width:10px; height:20px; line-height:20px; padding:0 6px; display:inline-block; margin-right:-1px; border:1px solid #ccc; text-align:center; font-weight:bold; cursor:pointer;}
+.shoppingOrder_amount .num{width:26px; height:20px; line-height:20px; margin:0px -3px 0 -2px;  border:1px solid #ccc; background:none; vertical-align:top; _vertical-align:-1px; font-size:12px; text-align:center;  border-left: none; border-right: none;}
+.shoppingOrder_control{padding:10px 20px; border-top:1px solid #ccc;}
+.shoppingOrder_links a{float:left; margin-left:25px; display:inline;}
+.clearbox:after{content:"";display:block;height:0;clear:both;visibility:hidden;}
+.order_settlement{margin-top:10px; padding:10px 0; background-color:#f6f6f6; text-align:right;}
+#cart_account{
+	float: right;
+	text-decoration: none;
+	display: block;
+	width: 166px; 
+	height:48px;
+	line-height:48px;
+	text-align:center;
+	background: #E73D1F;
+	font-size: 15px;
+
+	 margin-top: -8px;
+	color:#fff;
+}
+.footer{padding: 30px 140px; background: #757575;height: 220px;margin-top: 30px;color: #fff;position: relative;}
+.footer_l {width:700px;height: 250px;float: left;}
+.footer_l ul{float: left;margin-right: 70px;margin-top:30px ;}
+.footer_l ul li{margin-bottom: 30px;}
+.footer_l ul li a{color: #fff;}
+.footer_l h3{display: flex;width: 600px;justify-content: space-between;}
+.footer_r dl{position: absolute; width: 160px;right: 100px;top: 20px;overflow: hidden;}
+.footer_r dl dd p{text-align: center;width: 160px;}
+.last {padding: 20px 140px}
+.last p{text-align: left;margin: 0;}
+.num{width: 20px;height: 30px;}
